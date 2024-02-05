@@ -1,10 +1,175 @@
 ### sudo gives you admin rights
 ```bash
-
+ 
 sudo apt upgrade
-
+ 
 ```
-![Alt text](image-3.png)
-
-
-
+![Alt text](image-6.png) 
+ 
+ 
+ 
+ 
+ 
+### pwd shows current directory
+```bash
+ 
+pwd -L
+ 
+```
+![Alt text](image-7.png) 
+ 
+ 
+### cd changes directory
+```bash
+ 
+cd /home/ubuntu/CommandsLinux
+ 
+```
+![Alt text](image-8.png) 
+ 
+ 
+ 
+ 
+ 
+### cd changes directory
+```bash
+ 
+Cd ..
+ 
+```
+![Alt text](image-9.png) 
+ 
+ 
+ 
+ 
+### ls lists out the files in a directory
+```bash
+ 
+ls /home/ubuntu/Documents
+ 
+```
+![Alt text](image-10.png) 
+ 
+ 
+ 
+### cat is used to concatenate files
+```bash
+ 
+cat sqlite_commands.sh
+ 
+```
+![Alt text](image-11.png) 
+ 
+ 
+ 
+### cat is used to concatenate files
+```bash
+ 
+cat filename1.txt filename2.txt > filename3.txt
+ 
+```
+![Alt text](image-12.png) 
+ 
+ 
+ 
+### cp is used to copy a file 
+```bash
+ 
+cp sqlite_commands.sh /home/ubuntu/unixcommands
+ 
+```
+ 
+ 
+ 
+ 
+### cp is used to copy a file 
+```bash
+ 
+cp filename1.txt filename2.txt filename3.txt /home/ubuntu/Documents
+ 
+```
+![Alt text](image-13.png) 
+ 
+ 
+ 
+### cp is used to copy a file 
+```bash
+ 
+cp filename1.txt filename2.txt
+ 
+```
+![Alt text](image-14.png) 
+ 
+ 
+ 
+### cp is used to copy a file 
+```bash
+ 
+cp -R /home/ubuntu/Documents /home/ubuntu/Documents_backup
+ 
+```
+![Alt text](image-15.png) 
+ 
+### mv is used to cut a file and paste it in the specified directory
+```bash
+ 
+mv sqlite_commands.sh /home/ubuntu/CommandsLinux
+ 
+ 
+```
+![Alt text](image-16.png) 
+ 
+ 
+ 
+ 
+### mv is used to cut a file and paste it in the specified directory
+```bash
+ 
+mv sqlite_commands.sh /home/ubuntu/CommandsLinux
+ 
+ 
+```
+![Alt text](image-17.png) 
+ 
+ 
+ 
+### mkdir is used to create a directory
+```bash
+ 
+mkdir Music
+ 
+```
+![Alt text](image-18.png) 
+ 
+ 
+ 
+### rmdir -p is used to delete a directory
+```bash
+ 
+rmdir -p Music/Songs
+ 
+```
+![Alt text](image-19.png) 
+ 
+ 
+ 
+ 
+ 
+### rm is used to delete a file
+```bash
+ 
+rm filename1 filename2 filename3
+ 
+```
+![Alt text](image-20.png) 
+ 
+ 
+ 
+### locate is used to search for a file
+ 
+```bash
+ 
+locate -i school*note
+ 
+```
+![Alt text](image-21.png) 
